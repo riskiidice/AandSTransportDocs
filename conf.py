@@ -12,13 +12,13 @@
 #
 
 
-from django.conf import settings
+#from django.conf import settings
 import os
 import sys
-import django
+#import django
 sys.path.insert(0, os.path.abspath('..'))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'Salary_Project.settings'
-django.setup()
+#os.environ['DJANGO_SETTINGS_MODULE'] = 'Salary_Project.settings'
+#django.setup()
 
 
 # -- Project information -----------------------------------------------------
